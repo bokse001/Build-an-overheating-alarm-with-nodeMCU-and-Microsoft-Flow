@@ -21,15 +21,15 @@ Workshop documentation on building your own nodeMCU based overheating alarm usin
 
 [![Settings](https://github.com/bokse001/Build-you-own-weather-station/raw/master/images/settings.png)](https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/settings.png)
 
-\1. Tools > Boards > Boards Manager, install the "esp8266" board package
+4. Tools > Boards > Boards Manager, install the "esp8266" board package
 
 [![Boards manager](https://github.com/bokse001/Build-you-own-weather-station/raw/master/images/boards.png)](https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/boards.png)
 
-\1. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor" libraries
+5. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor" libraries
 
 [![Libraries](https://github.com/bokse001/Build-you-own-weather-station/raw/master/images/libraries.png)](https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/libraries.png)
 
-\1. Close and re-open Arduino IDE 1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
+6. Close and re-open Arduino IDE 1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
 
 When Connectivity to the board does not work:
 
