@@ -1,4 +1,4 @@
-# Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow
+# Build an overheating alarm with nodeMCU and Microsoft Flow
 
 Workshop documentation on building your own nodeMCU based overheating alarm using Microsoft flow.
 
