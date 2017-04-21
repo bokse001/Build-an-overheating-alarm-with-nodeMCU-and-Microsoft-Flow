@@ -80,7 +80,7 @@ Follow these steps to create an endpoint in Microsoft Flow to send telemetry dat
 
 1. `Log into` the [Microsoft flow portal](https://flow.microsoft.com/). You will be asked to provide Microsoft Flow credentials if needed
 
-![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flow_init.png)
+![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flow_init.png)
 
 1. Select `My flows`
 
@@ -98,15 +98,15 @@ Follow these steps to create an endpoint in Microsoft Flow to send telemetry dat
 
 5. First give the flow a proper name. Name it `Mail Temperature trigger` (by replacing 'Untitled')
 
-   [![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flow_create.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-input-more-with-name.png)
+   [![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flow_create.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-input-more-with-name.png)
 
 6. You are invited to select one of many flow steps. `Scroll down` until a step called 'Request' is shown
 
-   [![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flow_request.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-input-request2.png)
+   [![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flow_request.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-input-request2.png)
 
 7. Then select the `Request` step. The following fields are shown
 
-   [![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flow_request2.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-request-step-init.png)
+   [![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flow_request2.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-request-step-init.png)
 
 8. This is an incoming API call and we will use our nodeMCU to trigger this flow. *Note: The URL will be generated after save*
 
@@ -158,7 +158,7 @@ Follow these steps to create an endpoint in Microsoft Flow to send telemetry dat
 
 17. Finally, enter `23` in the right field
 
-    [![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flow_request3.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-portal-condition-less-then-42.png)
+    [![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flow_request3.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-portal-condition-less-then-42.png)
 
 18. We have created a condition, now we can fill in the 'if then else' blocks with steps. In the left block, Change 'IF YES, DO NOTHING' into 'IF YES' by selecting `Add an Action`
 
@@ -178,7 +178,7 @@ Follow these steps to create an endpoint in Microsoft Flow to send telemetry dat
 
 23. Enter `Hurry up, the temperature just got to` plus the entity field 'temperature' in the 'Email body' field
 
-    [![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flow_request4.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-condition-true-mail-step-filled-in.png)
+    [![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flow_request4.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-condition-true-mail-step-filled-in.png)
 
 24. This Mail step is ready, and so is the flow. Select `Create flow`
 
@@ -200,13 +200,13 @@ By this time, the endpoint of the Request step is created. Before we can pass te
 
 2. All your flows will appear here. The flow we just created is shown
 
-   [![alt tag](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flows_list.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-my-flows-list.png)
+   [![alt tag](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flows_list.png)](https://github.com/JeeWeetje/ttn-azure-workshop/blob/master/img/flow-my-flows-list.png)
 
 3. Edit the flow by clicking on it. 
 
 4. The flow is shown, in detail. Select the first step, the `Request step` so the fields are shown
 
-   ![](https://github.com/bokse001/Build-your-own-overheating-alarm/raw/master/images/flows_details2_url.png)
+   ![](https://github.com/bokse001/Build-an-overheating-alarm-with-nodeMCU-and-Microsoft-Flow/raw/master/images/flows_details2_url.png)
 
 5. The URL of the Request step endpoint is now available to copy
 
