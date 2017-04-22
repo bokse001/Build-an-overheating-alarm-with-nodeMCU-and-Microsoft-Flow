@@ -239,7 +239,7 @@ Now we have the URL of the endpoint. We will call it inside the Azure Function.
 
 - Find the part with the code:
 
-- - ?
+- 
 
            client.print(String("GET ") + url + " HTTP/1.1\r\n" +
            "Host: " + host + "\r\n" +
@@ -248,8 +248,6 @@ Now we have the URL of the endpoint. We will call it inside the Azure Function.
 
 - And replace it with:
 
-- 
-  ?
         int temperature = 24; 				// Temperature so alarm is triggered
         data = "\{    \"temperature\": ";
         data = data + String(temperature);
